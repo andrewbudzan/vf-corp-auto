@@ -59,9 +59,10 @@ class Sap(object):
 
 
 if __name__ == '__main__':
-    s1 = Sap()
-    ap = ComObject(s1.app)
-    # print(ap().ContainerType)
-    cont = SapContainer(s1.app)
-    print(cont)
-    print(cont.children[0].Id)
+    pass
+    # s1 = Sap()
+    # ap = ComObject(s1.app)
+    # # print(ap().ContainerType)
+    # cont = SapContainer(s1.app)
+    # print(cont)
+    # print(cont.children[0].Id)
