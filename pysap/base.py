@@ -8,6 +8,8 @@ from win32com.client import GetObject
 
 
 class ComObject:
+    """ wrapper for COM objects """
+
     def __init__(self, com):
         self._com = com
         self.sap_id = com.Id
